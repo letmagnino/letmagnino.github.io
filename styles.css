@@ -4,7 +4,7 @@ body{
 	font: 400 12px/22px 'Open Sans', Verdana, Helvetica, sans-serif;
 	color:#F5F5F5;
 }
-h1{font: 400 58px/60px 'Bree Serif', Georgia, serif; color:#F5F5F5;}
+h1{font: 400 48px/50px 'Bree Serif', Georgia, serif; color:#F5F5F5;}
 h2{font: 400 18px/22px 'Bree Serif', Georgia, serif; color:#F5F5F5;}
 h3{font: 400 14px/16px 'Bree Serif', Georgia, serif; color:#F5F5F5;}
 ul{margin:0px; padding:0px;}
@@ -75,19 +75,20 @@ a img{border:0px;}
 /* FORMACAO SECTION */
 /****************************************************/
 
-#formacao{margin:0px 43px; padding-top:115px;}
+#formacao{margin:0px 10px; }
 #formacao .col{
-	width:235px;
+	width:800px;
 	float:left;
+
 }
 #formacao .content{overflow:auto;}
-#formacao .col-mid{margin:0px 65px;}
+#formacao .col-mid{margin:0px px;}
 
 /****************************************************/
 /* WORK SECTION */
 /****************************************************/
 
-#work{margin:0px 43px; padding-top:115px;}
+#work{margin:0px 10px; }
 #work .content{overflow:auto;}
 #work #work-thumbs li{
 	list-style:none;
@@ -98,29 +99,18 @@ a img{border:0px;}
 #work #work-thumbs li.last{margin:0px;}
 
 /****************************************************/
-/* CONNECT SECTION */
+/* hab SECTION */
 /****************************************************/
-
-
-#connect #social-footer{
-	width:300px;
-	float:left;
-	margin-left:75px;
-}
-#connect #social-footer #sm-links{margin-top:25px;}
-#connect #social-footer #sm-links li{
+#hab{margin:0px 10px; }
+#hab .content{overflow:auto;}
+#hab #hab-thumbs li{
 	list-style:none;
 	float:left;
+	margin:0px 20px 15px 0px;
+	padding:0px;
 }
-#connect #social-footer #sm-links li a{
-	display:block;
-	text-indent:-9999px;
-	width:26px; 
-	height:26px;
-	margin-right:10px;
-}
-#connect #social-footer #sm-links li a.facebook{background:url(images/sm-facebook-icon.png) no-repeat;}
-#connect #social-footer #sm-links li a.github{background:url(images/sm-github-icon.png) no-repeat; width:40px;height:40px;}
+#hab #hab-thumbs li.last{margin:0px;}
+
 
 /****************************************************/
 /* MISC */
